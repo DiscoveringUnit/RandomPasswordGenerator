@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+}
+
+h2 {
+    font-family: "Karla", serif;
+    color: white;
+    font-size: 40px;
+    height: 64px;
+    width: 361px;
+}
+
+
+#special-txt {
+    color: #4ADF86;
+}
+
+.main-text{
+    color: #D5D4D8;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    height: 28px;
+    width: 372px;
+}
+
+#btn-pass{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #10B981;
+    height: 42px;
+    width: 191px;
+    cursor: pointer;
+}
+
+
+
+
+#btn-pass:hover{
+    background-color: #62bd9f;
+}
+
+.pass-length{
+    height: 30px;
+    width: 30px;
+    background-color: #1F2937;
+    margin-left: 20px;
+    border: 1px solid #10B981;
+    color: white;
+    text-align: center;
+}
+
+
+.main-container{
+    height: 550px;
+    width: 550px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 270px auto;
+    padding: 30px;
+}
+
+.main-title{
+    margin-bottom: 25px;
+}
+
+.line{
+    height: 0;
+    width: 446px;
+    background-color: #2F3E53;
+    border: 1px solid #2F3E53;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.main-output {
+    background-color: #273549;
+    height: 39px;
+    width: 211px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    color: #55F991;
+    font-family: "Inter", serif;
+    padding-top: 5px;
+}
+
+#output-el1 {
+    margin-right: 24px;
+}
+
+#pass-length-title {
+    display: inline;
+    margin-left: 10px;
+}
