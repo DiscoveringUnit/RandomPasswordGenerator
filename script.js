@@ -9,15 +9,15 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M",
 const filteredCharacters = characters.filter(char => char !== ',');
 
 
-let outputEL1 = document.getElementById('output-el1')
-let outputEL2 = document.getElementById('output-el2')
-let userPass1 = []
-let userPass2 = []
-let passLengthEL = 10 // default length 
+const outputEL1 = document.getElementById('output-el1');
+const outputEL2 = document.getElementById('output-el2');
+let userPass1 = [];
+let userPass2 = [];
+let passLengthEL = 10; // default length 
 
 function randomPassword() {
 
-    let passInput = document.getElementById('pass-el').value 
+    let passInput = document.getElementById('pass-el').value ;
     
     // Check if the input is empty
     if (passInput === "") {
